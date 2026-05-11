@@ -9,5 +9,4 @@ describe('nome do meu teste', ()=> {
         cy.get('#login-button').click()
         cy.get('.app_logo').should('be.visible')
     });
-    
 })

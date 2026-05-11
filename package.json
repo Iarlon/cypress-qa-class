@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/Iarlon/cypress-qa-class#readme",
   "devDependencies": {
-    "cypress": "^15.14.2"
-  }
+    "cypress": "^15.14.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": false,
+  "step_definitions": "cypress/e2e/steps"
+}
 }
